@@ -18,7 +18,7 @@ const GemstonesSection = () => {
       name: "Ruby",
       description:
         "The king of precious stones. Deep red Burmese rubies with excellent saturation and natural fluorescence.",
-      image: "https://images.unsplash.com/photo-1617260290998-eff7ff505f18?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1761754642919-207d8dd8d1e2?w=1260&h=750&fit=crop&q=80",
       origin: "Myanmar • Mozambique",
     },
     {
