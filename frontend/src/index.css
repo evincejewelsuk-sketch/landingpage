@@ -175,3 +175,15 @@ input:focus, textarea:focus {
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide Emergent watermark */
+[data-testid="emergent-watermark"],
+.emergent-watermark,
+div[class*="emergent"],
+a[href*="emergent.sh"][style*="position: fixed"],
+div[style*="Made with Emergent"],
+div:has(> a[href*="emergent"]) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
