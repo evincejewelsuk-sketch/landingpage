@@ -39,7 +39,7 @@ const GemstonesSection = () => {
       name: "Opal",
       description:
         "Australian fire opals displaying mesmerising play-of-colour. Each stone is a unique masterpiece of nature.",
-      image: "https://images.pexels.com/photos/7256672/pexels-photo-7256672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.unsplash.com/photo-1705575567619-c9774a05852d?w=1260&h=750&fit=crop&q=80",
       origin: "Australia • Ethiopia",
     },
     {
