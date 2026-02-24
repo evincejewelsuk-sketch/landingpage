@@ -11,50 +11,45 @@ const GemstonesSection = () => {
       name: "Emerald",
       description:
         "The stone of royalty. Our Colombian and Zambian emeralds are selected for their exceptional clarity and vivid green hue.",
-      filter: "",
+      image: "https://images.pexels.com/photos/35451979/pexels-photo-35451979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Colombia • Zambia",
     },
     {
       name: "Ruby",
       description:
         "The king of precious stones. Deep red Burmese rubies with excellent saturation and natural fluorescence.",
-      filter: "filter-ruby",
+      image: "https://images.pexels.com/photos/13307186/pexels-photo-13307186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Myanmar • Mozambique",
     },
     {
       name: "Sapphire",
       description:
         "From Kashmir blues to Ceylon brilliance. Our sapphires display the finest cornflower blue with velvety lustre.",
-      filter: "filter-sapphire",
+      image: "https://images.pexels.com/photos/9953656/pexels-photo-9953656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Sri Lanka • Kashmir",
     },
     {
       name: "Tanzanite",
       description:
         "Exclusively from Tanzania. Rare violet-blue stones with exceptional trichroic properties.",
-      filter: "filter-tanzanite",
+      image: "https://images.unsplash.com/photo-1699924539821-f65017a1a851?w=1260&h=750&fit=crop&q=80",
       origin: "Tanzania",
     },
     {
       name: "Opal",
       description:
         "Australian fire opals displaying mesmerising play-of-colour. Each stone is a unique masterpiece of nature.",
-      filter: "",
-      specialImage:
-        "https://images.unsplash.com/photo-1583937443351-f2f669fbe2cf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxsb29zZSUyMGVtZXJhbGQlMjBnZW1zdG9uZSUyMG1hY3JvJTIwbHV4dXJ5fGVufDB8fHx8MTc3MTkzOTQ2N3ww&ixlib=rb-4.1.0&q=85",
+      image: "https://images.unsplash.com/photo-1608637273739-15f0cd97285e?w=1260&h=750&fit=crop&q=80",
       origin: "Australia • Ethiopia",
     },
     {
       name: "Rubellite",
       description:
         "Pink to red tourmaline of exceptional quality. Prized for its vivid saturation and crystal clarity.",
-      filter: "filter-rubellite",
+      image: "https://images.unsplash.com/photo-1728234553997-f71b87a44e13?w=1260&h=750&fit=crop&q=80",
       origin: "Brazil • Nigeria",
     },
   ];
-
-  const baseGemstoneImage =
-    "https://images.pexels.com/photos/35451979/pexels-photo-35451979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
 
   return (
     <section
@@ -96,11 +91,13 @@ const GemstonesSection = () => {
               className="gemstone-card group"
             >
               {/* Image */}
-              <div className="relative aspect-square overflow-hidden mb-6">
+              <div className="relative aspect-square overflow-hidden mb-6 bg-[#2a2a2a]">
                 <img
-                  src={gem.specialImage || baseGemstoneImage}
-                  alt={gem.name}
-                  className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 ${gem.filter}`}
+                  src={gem.image}
+                  alt={`${gem.name} gemstone`}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  style={{ objectPosition: 'center' }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1A1A1A]/60 to-transparent" />
                 {/* Origin badge */}
