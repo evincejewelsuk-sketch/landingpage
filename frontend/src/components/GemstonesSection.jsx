@@ -32,7 +32,7 @@ const GemstonesSection = () => {
       name: "Tanzanite",
       description:
         "Exclusively from Tanzania. Rare violet-blue stones with exceptional trichroic properties.",
-      image: "https://images.unsplash.com/photo-1570800384563-47b66b89d5df?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.pexels.com/photos/6468514/pexels-photo-6468514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Tanzania",
     },
     {
