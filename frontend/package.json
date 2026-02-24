@@ -62,7 +62,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "react-scripts build",
+    "build": "SKIP_PREFLIGHT_CHECK=true craco build",
     "test": "craco test"
   },
   "browserslist": {
