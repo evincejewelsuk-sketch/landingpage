@@ -180,10 +180,18 @@ input:focus, textarea:focus {
 [data-testid="emergent-watermark"],
 .emergent-watermark,
 div[class*="emergent"],
+a[href*="emergent.sh"],
 a[href*="emergent.sh"][style*="position: fixed"],
 div[style*="Made with Emergent"],
-div:has(> a[href*="emergent"]) {
+div:has(> a[href*="emergent"]),
+div[style*="position: fixed"][style*="bottom"],
+div[style*="z-index: 9999"],
+div[style*="z-index: 999999"] {
   display: none !important;
   visibility: hidden !important;
   opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
