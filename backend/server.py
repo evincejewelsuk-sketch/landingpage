@@ -153,7 +153,7 @@ async def submit_lead_form(request: LeadFormRequest):
     }
     
     try:
-        email = await asyncio.to_thread(resend.Emails.send, params)
+        await asyncio.to_thread(resend.Emails.send, params)
         logger.info(f"Email sent successfully for lead {lead_id}")
         return LeadFormResponse(
             status="success",
