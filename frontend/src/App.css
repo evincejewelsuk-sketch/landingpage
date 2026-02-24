@@ -1,34 +1,107 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Evince Jewels - Luxury Styles */
+
+.section-padding {
+  @apply px-6 md:px-12 lg:px-24 py-24 md:py-32;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+.container-luxury {
+  @apply max-w-7xl mx-auto;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+/* Navigation */
+.nav-blur {
+  @apply bg-[#FFFFF0]/90 backdrop-blur-md border-b border-[#D4AF37]/10;
 }
 
-.App-link {
-    color: #61dafb;
+/* Button styles */
+.btn-primary {
+  @apply bg-[#0B6E4F] text-white hover:bg-[#084C3A] rounded-sm px-8 py-4 uppercase tracking-widest text-xs font-bold transition-all duration-500 ease-out;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.btn-secondary {
+  @apply bg-transparent border border-[#0B6E4F] text-[#0B6E4F] hover:bg-[#0B6E4F] hover:text-white rounded-sm px-8 py-4 uppercase tracking-widest text-xs transition-all duration-500;
+}
+
+.btn-gold {
+  @apply bg-transparent border border-[#D4AF37] text-[#1A1A1A] hover:bg-[#D4AF37] hover:text-white rounded-sm px-8 py-4 uppercase tracking-widest text-xs transition-all duration-500;
+}
+
+/* Input styles */
+.input-luxury {
+  @apply bg-transparent border-b border-[#1A1A1A]/20 focus:border-[#0B6E4F] rounded-none px-0 py-4 placeholder:text-[#1A1A1A]/40 focus:ring-0 transition-colors w-full;
+}
+
+/* Card styles */
+.card-luxury {
+  @apply p-8 border border-[#D4AF37]/20 bg-[#FFFFF0] hover:border-[#0B6E4F]/50 transition-colors duration-500;
+}
+
+/* Text styles */
+.text-gold {
+  color: #D4AF37;
+}
+
+.text-emerald {
+  color: #0B6E4F;
+}
+
+.bg-ivory {
+  background-color: #FFFFF0;
+}
+
+.bg-beige {
+  background-color: #F5F0E6;
+}
+
+/* Gemstone gallery horizontal scroll */
+.gemstone-scroll {
+  @apply flex gap-8 overflow-x-auto pb-8 snap-x snap-mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.gemstone-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.gemstone-card {
+  @apply snap-start flex-shrink-0 w-80 md:w-96;
+}
+
+/* Hero overlay */
+.hero-overlay {
+  background: linear-gradient(to right, rgba(255, 255, 240, 0.95) 0%, rgba(255, 255, 240, 0.7) 50%, rgba(255, 255, 240, 0) 100%);
+}
+
+/* Gold line accent */
+.gold-line {
+  @apply w-16 h-px bg-[#D4AF37];
+}
+
+/* Section divider */
+.section-divider {
+  @apply w-full h-px bg-gradient-to-r from-transparent via-[#D4AF37]/30 to-transparent;
+}
+
+/* Image hover effect */
+.img-hover {
+  @apply transition-transform duration-700 ease-out;
+}
+
+.img-hover:hover {
+  @apply scale-105;
+}
+
+/* Text link with underline */
+.link-underline {
+  @apply text-[#1A1A1A] hover:text-[#0B6E4F] underline underline-offset-4 decoration-[#D4AF37] transition-colors;
+}
+
+/* Feature card hover */
+.feature-hover {
+  @apply transition-all duration-500;
+}
+
+.feature-hover:hover {
+  @apply border-[#0B6E4F]/50 shadow-lg shadow-[#0B6E4F]/5;
 }
