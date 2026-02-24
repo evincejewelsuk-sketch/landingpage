@@ -11,42 +11,42 @@ const GemstonesSection = () => {
       name: "Emerald",
       description:
         "The stone of royalty. Our Colombian and Zambian emeralds are selected for their exceptional clarity and vivid green hue.",
-      image: "https://images.pexels.com/photos/35451979/pexels-photo-35451979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/35451978/pexels-photo-35451978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Colombia • Zambia",
     },
     {
       name: "Ruby",
       description:
         "The king of precious stones. Deep red Burmese rubies with excellent saturation and natural fluorescence.",
-      image: "https://images.pexels.com/photos/13307186/pexels-photo-13307186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.unsplash.com/photo-1617260290998-eff7ff505f18?w=1260&h=750&fit=crop&q=80",
       origin: "Myanmar • Mozambique",
     },
     {
       name: "Sapphire",
       description:
         "From Kashmir blues to Ceylon brilliance. Our sapphires display the finest cornflower blue with velvety lustre.",
-      image: "https://images.pexels.com/photos/34522440/pexels-photo-34522440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/34522441/pexels-photo-34522441.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Sri Lanka • Kashmir",
     },
     {
       name: "Tanzanite",
       description:
         "Exclusively from Tanzania. Rare violet-blue stones with exceptional trichroic properties.",
-      image: "https://images.unsplash.com/photo-1699924539821-f65017a1a851?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.pexels.com/photos/13300176/pexels-photo-13300176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Tanzania",
     },
     {
       name: "Opal",
       description:
         "Australian fire opals displaying mesmerising play-of-colour. Each stone is a unique masterpiece of nature.",
-      image: "https://images.unsplash.com/photo-1608637273739-15f0cd97285e?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.pexels.com/photos/7256672/pexels-photo-7256672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Australia • Ethiopia",
     },
     {
       name: "Rubellite",
       description:
         "Pink to red tourmaline of exceptional quality. Prized for its vivid saturation and crystal clarity.",
-      image: "https://images.unsplash.com/photo-1728234553997-f71b87a44e13?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1705575420317-daaed2ab4cf3?w=1260&h=750&fit=crop&q=80",
       origin: "Brazil • Nigeria",
     },
   ];
