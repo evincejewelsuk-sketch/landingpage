@@ -32,21 +32,21 @@ const GemstonesSection = () => {
       name: "Tanzanite",
       description:
         "Exclusively from Tanzania. Rare violet-blue stones with exceptional trichroic properties.",
-      image: "https://images.pexels.com/photos/13300176/pexels-photo-13300176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.unsplash.com/photo-1570800384563-47b66b89d5df?w=1260&h=750&fit=crop&q=80",
       origin: "Tanzania",
     },
     {
       name: "Opal",
       description:
         "Australian fire opals displaying mesmerising play-of-colour. Each stone is a unique masterpiece of nature.",
-      image: "https://images.unsplash.com/photo-1705575567619-c9774a05852d?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1682963135833-ee78c62672b3?w=1260&h=750&fit=crop&q=80",
       origin: "Australia • Ethiopia",
     },
     {
       name: "Rubellite",
       description:
         "Pink to red tourmaline of exceptional quality. Prized for its vivid saturation and crystal clarity.",
-      image: "https://images.unsplash.com/photo-1705575420317-daaed2ab4cf3?w=1260&h=750&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1584714553016-ab06df492eba?w=1260&h=750&fit=crop&q=80",
       origin: "Brazil • Nigeria",
     },
   ];
