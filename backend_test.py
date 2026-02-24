@@ -155,7 +155,8 @@ def main():
         print("\nFailed tests:")
         for result in tester.results:
             if not result['success']:
-                print(f"   - {result['test']}: {result.get('error', f'Status {result.get(\"actual_status\")}')} ")
+                error_msg = result.get('error', f'Status {result.get("actual_status")}')
+                print(f"   - {result['test']}: {error_msg}")
         return_code = 1
     
     return return_code
