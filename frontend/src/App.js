@@ -1,6 +1,6 @@
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Toaster } from "@/components/ui/sonner";
+import { Toaster } from "sonner";
 import HomePage from "@/pages/HomePage";
 
 function App() {
@@ -11,7 +11,18 @@ function App() {
           <Route path="/" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
-      <Toaster position="bottom-right" />
+      <Toaster 
+        position="bottom-right" 
+        richColors
+        toastOptions={{
+          style: {
+            background: '#FFFFF0',
+            border: '1px solid #D4AF37',
+            color: '#1A1A1A',
+          },
+          className: 'font-sans',
+        }}
+      />
       <div className="grain-overlay" />
     </div>
   );
