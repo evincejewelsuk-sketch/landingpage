@@ -25,7 +25,7 @@ const GemstonesSection = () => {
       name: "Sapphire",
       description:
         "From Kashmir blues to Ceylon brilliance. Our sapphires display the finest cornflower blue with velvety lustre.",
-      image: "https://images.pexels.com/photos/9953656/pexels-photo-9953656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/34522440/pexels-photo-34522440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       origin: "Sri Lanka • Kashmir",
     },
     {
