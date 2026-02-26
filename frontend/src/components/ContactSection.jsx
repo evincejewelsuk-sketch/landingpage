@@ -212,12 +212,12 @@ const ContactSection = () => {
                 +44 07386 149641
               </a>
               <a
-                href="mailto:evincejewelsuk@gmail.com"
+                href="mailto:info@evincejewels.co.uk"
                 data-testid="contact-email-link"
                 className="flex items-center gap-4 text-[#1A1A1A]/70 hover:text-[#0B6E4F] transition-colors"
               >
                 <Mail className="w-5 h-5 text-[#D4AF37]" />
-                evincejewelsuk@gmail.com
+                info@evincejewels.co.uk
               </a>
               <div className="flex items-start gap-4 text-[#1A1A1A]/70">
                 <MapPin className="w-5 h-5 text-[#D4AF37] flex-shrink-0 mt-0.5" />
