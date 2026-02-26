@@ -88,12 +88,12 @@ const Footer = () => {
                   +44 07386 149641
                 </a>
                 <a
-                  href="mailto:evincejewelsuk@gmail.com"
+                  href="mailto:info@evincejewels.co.uk"
                   data-testid="footer-email"
                   className="flex items-center gap-3 text-sm text-white/60 hover:text-[#D4AF37] transition-colors"
                 >
                   <Mail className="w-4 h-4" />
-                  evincejewelsuk@gmail.com
+                  info@evincejewels.co.uk
                 </a>
                 <div className="flex items-start gap-3 text-sm text-white/60">
                   <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
