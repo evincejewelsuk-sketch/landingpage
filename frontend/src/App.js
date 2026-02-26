@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "@/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/react";
 import HomePage from "@/pages/HomePage";
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           className: 'font-sans',
         }}
       />
+      <Analytics />
       <div className="grain-overlay" />
     </div>
   );
